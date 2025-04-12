@@ -1,6 +1,6 @@
 import { NoteEntity } from "../../domain/entities/Note.entity";
 import { NoteRepository } from "../../domain/repositories/Note.repository";
-import { CreateNote } from "../../domain/useCases/CreateNote.usecase";
+import { CreateNote } from "../../domain/useCases/CreateNote.useCase";
 
 export class CreateNoteUseCase implements CreateNote{
     constructor (
